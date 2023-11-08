@@ -1,0 +1,9 @@
+{
+    "menu": {
+        "home": "Home",
+        "aboutMe": "Over mij",
+        "treatments": "Behandelingen",
+        "vacature": "vacature",
+        "contact": "contact"
+    }
+}
