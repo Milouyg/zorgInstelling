@@ -5,5 +5,18 @@
         "treatments": "Behandelingen",
         "vacature": "vacature",
         "contact": "contact"
+    },
+    "landing-page": {
+        "title": "Werken-bij",
+        "description": "text",
+        "img":{
+            "src": "../../../assets/imgs/heroImage.jpg",
+            "alt": ""
+        }
+    },
+    "smallDetails":{
+        "detail1": "test1",
+        "detail2": "test2",
+        "detail3": "test3"
     }
 }

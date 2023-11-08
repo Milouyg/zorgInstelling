@@ -6,11 +6,12 @@ import menu from "../../../assets/json/info.json";
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
+export class HeaderComponent{
   title = 'zorgInstelling';
   menuItems = menu["menu"];
 
-  constructor(){
-    console.log(this.menuItems)
-  }
+    openBtn(){
+        console.log("test")
+    }
+
 }

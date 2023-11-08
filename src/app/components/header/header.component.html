@@ -2,7 +2,7 @@
     <figure class="logo-container">
         <img class="logo" src="https://placehold.co/100x50" alt="afbeelding van een logo zorginstelling">
     </figure>
-    <ul class="menu">
+    <ul id="" class="menu open">
         <li class="menu-item">
             {{menuItems["home"]}}
         </li>
@@ -19,5 +19,8 @@
             {{menuItems["contact"]}}
         </li>
     </ul>
-    <i class="fa-solid fa-bars menu-bar"></i>
+    <button class="menu-bar" (click)="openBtn()">
+        <i class="fa-solid fa-bars icon-bar"></i>
+    </button>
+
 </header>

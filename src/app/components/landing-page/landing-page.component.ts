@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import menu from "../../../assets/json/info.json";
+import landingPage from "../../../assets/json/info.json";
 
 @Component({
   selector: 'app-landing-page',
@@ -8,9 +8,9 @@ import menu from "../../../assets/json/info.json";
 })
 export class landingPageComponent {
   title = 'zorgInstelling';
-  menuItems = menu["menu"];
+  landingPage = landingPage["landing-page"];
 
   constructor(){
-    console.log(this.menuItems)
+
   }
 }

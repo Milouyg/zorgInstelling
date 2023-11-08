@@ -1,0 +1,79 @@
+@use "../../../variables.scss";
+
+.landing-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .hero-img{
+        width: 100%;
+        height: 80rem;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .context-container{
+        width: 50rem;
+        height: 50rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+        border-radius: .5rem;
+        background: rgba(0,0,0, .5);
+        position: absolute;
+        left: 5%;
+        z-index: 1;
+
+        .title{
+            color: variables.$h1Color;
+
+        }
+
+        .description{
+            color: variables.$h1Color;
+        }
+    }
+
+    .wrapper{
+        width: 100rem;
+        height: 5rem;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen AND (max-width: 78.125rem) { // 1250px
+
+    .landing-page{
+
+        .context-container{
+            width: 40rem;
+            height: 40rem;
+        }
+    }
+}
+
+@media screen AND (max-width: 62.5rem) { // 1000px
+
+    .landing-page{
+
+        .context-container{
+            left: unset;
+        }
+    }
+}
+
+@media screen AND (max-width: 31.25rem) { // 1000px
+
+    .landing-page{
+
+        .context-container{
+            width: 80%;
+            height: 66%;
+        }
+    }
+}
