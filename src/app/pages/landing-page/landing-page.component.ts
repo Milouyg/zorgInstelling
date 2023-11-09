@@ -6,11 +6,6 @@ import landingPage from "../../../assets/json/info.json";
   templateUrl: './landing-page.component.html',
   styleUrls: ['./landing-page.component.scss']
 })
-export class landingPageComponent {
-  title = 'zorgInstelling';
+export class LandingPageComponent {
   landingPage = landingPage["landing-page"];
-
-  constructor(){
-
-  }
 }

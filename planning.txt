@@ -1,7 +1,8 @@
-Procedure (vergeet producten in wordpress php)
 
 Oriëntatie ( 7/8 november )
-- Inspiratie opdoen
+- Inspiratie opdoen:
+	Pinterest
 - Design ontwerpen
-- Kleurpalet opzoeken
+- Kleurpalet opzoeken:
+	https://www.marketingtribune.nl/algemeen/nieuws/2014/12/de-psychologie-achter-kleuren-in-zorgmarketing/index.xml#:~:text=De%20zorgsector%20gebruikt%20veel%20blauw,ook%20warme%20kleuren%2C%20bijvoorbeeld%20donkerrood.
 

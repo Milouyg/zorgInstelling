@@ -7,7 +7,6 @@ import menu from "../../../assets/json/info.json";
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent{
-  title = 'zorgInstelling';
   menuItems = menu["menu"];
 
     openBtn(){
