@@ -1,0 +1,36 @@
+.article-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .article {
+        width: 70%;
+        background: blue;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+
+        .img-container {
+            display: flex;
+            align-items: center;
+
+            .img {
+                object-fit: contain;
+            }
+        }
+
+        .content-container {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 100%;
+
+            .title {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

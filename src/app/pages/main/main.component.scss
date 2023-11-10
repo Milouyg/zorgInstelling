@@ -6,35 +6,4 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-
-    .article{
-        width: 70%;
-        height: 40rem;
-        background: blue;
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-
-        .img-container{
-            width: 50rem;
-            height: 50rem;
-
-            .img{
-                object-fit: contain;
-            }
-        }
-
-        .content-container{
-            padding: 1rem;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            width: 100%;
-
-            .title{
-                display: flex;
-                justify-content: center;
-            }
-        }
-    }
 }

@@ -6,6 +6,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { SmallDetailsComponent } from './components/smallDetails/smallDetails.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { MainComponent } from './pages/main/main.component';
+import { ArticleComponent } from './components/article/article.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { MainComponent } from './pages/main/main.component';
     HeaderComponent,
     LandingPageComponent,
     SmallDetailsComponent,
-    MainComponent
+    MainComponent,
+    ArticleComponent,
   ],
   imports: [
     BrowserModule

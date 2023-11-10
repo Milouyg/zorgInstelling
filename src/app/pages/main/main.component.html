@@ -1,14 +1,5 @@
 <section class="main">
-    <article class="article">
-        <figure class="img-container">
-            <img class="img" src="https://placehold.co/400x400" alt="">
-        </figure>
-        <p class="content-container">
-            <ng-container *ngFor="let article of main['articles']">
-                <h1 class="title"> {{article['title']}} </h1>
-                <p class="description"> {{article['description']}} </p>
-            </ng-container>
-        </p>
-    </article>
-
+    <ng-container *ngFor="let article of main['articles']">
+        <app-article [imgLeft]="article['img-left']" [title]="article['title']" [description]="article['description']"></app-article>
+    </ng-container>
 </section>

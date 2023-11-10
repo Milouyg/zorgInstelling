@@ -1,0 +1,23 @@
+<div class="article-container" *ngIf="imgLeft">
+    <article class="article">
+        <figure class="img-container">
+            <img class="img" src="https://placehold.co/400x400" alt="">
+        </figure>
+        <div class="content-container">
+            <h1 class="title"> {{title}} </h1>
+            <p class="description"> {{description}} </p>
+        </div>
+    </article>
+</div>
+<div class="article-container" *ngIf="!imgLeft">
+    <article class="article">
+        <div class="content-container">
+            <h1 class="title"> {{title}} </h1>
+            <p class="description"> {{description}} </p>
+        </div>
+        <figure class="img-container">
+            <img class="img" src="https://placehold.co/400x400" alt="">
+        </figure>
+    </article>
+</div>
+
