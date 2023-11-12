@@ -9,8 +9,8 @@ import menu from "../../../assets/json/info.json";
 export class HeaderComponent{
   menuItems = menu["menu"];
 
-    openBtn(){
-        console.log("test")
+    openBtn(menuElement: HTMLElement){
+        menuElement.classList.toggle('open');
     }
 
 }

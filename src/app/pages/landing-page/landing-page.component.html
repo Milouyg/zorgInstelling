@@ -2,9 +2,15 @@
     <img [src]='landingPage["img"]["src"]' [alt]='landingPage["img"]["alt"]' class='hero-img'>
     <figure class='context-container'>
         <h1 class='title'> {{landingPage['title']}} </h1>
-        <p class='description'> {{landingPage['description']}} </p>
+        <ul class="menu">
+            <li class="list-item">{{landingPage['bulletPoints']['point1']}}</li>
+            <li class="list-item">{{landingPage['bulletPoints']['point2']}}</li>
+            <li class="list-item">{{landingPage['bulletPoints']['point3']}}</li>
+        </ul>
     </figure>
-    <app-smallDetails [text]='"dit is een test"' [left]='5' [bottom]='8'></app-smallDetails>
-    <app-smallDetails [text]='"dit is een test"' [left]='45' [bottom]='8'></app-smallDetails>
-    <app-smallDetails [text]='"dit is een test"' [left]='82' [bottom]='8'></app-smallDetails>
 </section>
+
+
+<!-- <app-smallDetails [text]='"dit is een test"' [left]='5' [bottom]='8'></app-smallDetails>
+<app-smallDetails [text]='"dit is een test"' [left]='45' [bottom]='8'></app-smallDetails>
+<app-smallDetails [text]='"dit is een test"' [left]='82' [bottom]='8'></app-smallDetails> -->

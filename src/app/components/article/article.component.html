@@ -1,7 +1,7 @@
-<div class="article-container" *ngIf="imgLeft">
-    <article class="article">
+<div class="article-container" >
+    <article class="article" *ngIf="imgLeft">
         <figure class="img-container">
-            <img class="img" src="https://placehold.co/400x400" alt="">
+            <img class="img" [src]="image['src']" [alt]="image['alt']">
         </figure>
         <div class="content-container">
             <h1 class="title"> {{title}} </h1>
@@ -9,14 +9,14 @@
         </div>
     </article>
 </div>
-<div class="article-container" *ngIf="!imgLeft">
-    <article class="article">
+<div class="article-container" >
+    <article class="article" *ngIf="!imgLeft">
         <div class="content-container">
             <h1 class="title"> {{title}} </h1>
             <p class="description"> {{description}} </p>
         </div>
         <figure class="img-container">
-            <img class="img" src="https://placehold.co/400x400" alt="">
+            <img class="img" [src]="image['src']" [alt]="image['alt']">
         </figure>
     </article>
 </div>

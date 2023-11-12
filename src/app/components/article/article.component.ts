@@ -5,10 +5,11 @@ import { Component, Input } from '@angular/core';
     templateUrl: './article.component.html',
     styleUrls: ['./article.component.scss']
 })
-export class ArticleComponent{
+export class ArticleComponent {
     @Input() imgLeft: boolean = true;
     @Input() title: string = "";
     @Input() description: string = "";
+    @Input() image?: any;
 }
 
 

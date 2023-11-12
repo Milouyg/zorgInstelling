@@ -1,9 +1,161 @@
-.main{
-    margin-top: 10rem;
+.main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+
+    .title{
+        text-align: center;
+    }
+
+    .articles {
+        width: 70%;
+        background: orange;
+    }
+
+    .vacatures {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background: red;
+        gap: 2rem;
+
+        .vacature-container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+    }
+
+    .application-process {
+        width: 70%;
+        gap: 2rem;
+        background: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .description {
+            width: 100%;
+            text-align: center;
+            display: block;
+        }
+
+        .description-mobile {
+            display: none;
+        }
+
+        .menu-items {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .list-item {
+                list-style: none;
+
+                .icon {
+                    font-size: 300%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 70%;
+
+        .contact-info-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 2rem;
+
+            .contact-us-visit {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .contact-us-postal {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .follow-us {
+                display: flex;
+                flex-direction: column;
+
+                .icon-container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: .5rem;
+                }
+            }
+        }
+    }
 }
+
+@media screen and (max-width: 73.4375rem) { // 1175px
+    .main{
+        .vacatures{
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 43.75rem) {
+    .main {
+
+        .application-process {
+
+            .description {
+                display: none;
+            }
+
+            .description-mobile {
+                display: block;
+            }
+        }
+
+        .contact{
+
+            .contact-info-container{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 43.75rem) {
+    .main {
+
+        .application-process {
+
+            .description {
+                display: none;
+            }
+
+            .description-mobile {
+                display: block;
+            }
+
+            .menu-items{
+                flex-direction: column;
+            }
+        }
+
+    }
+}
+

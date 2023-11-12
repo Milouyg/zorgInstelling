@@ -7,10 +7,21 @@ import main from "../../../assets/json/info.json";
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent{
-    main = main["main"];
+  main = main['main'];
+  explanation = this.main['applicationProcess']['description'];
 
-    constructor(){
-        console.log(main);
-    }
+  explanationMobile = this.main['applicationProcess']['descriptionMobile']
 
+  constructor() {
+  }
+
+  showExplanation(text: string) {
+      this.explanation = text;
+  }
+
+  showDefaultText() {
+    this.explanation = this.main['applicationProcess']['description'];
+
+    this.explanationMobile = this.main['applicationProcess']['descriptionMobile']
+  }
 }

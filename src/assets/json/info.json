@@ -3,35 +3,108 @@
         "home": "Home",
         "aboutMe": "Over mij",
         "treatments": "Behandelingen",
-        "vacature": "vacature",
-        "contact": "contact"
+        "vacature": "Vacatures",
+        "contact": "Contact"
     },
     "landing-page": {
         "title": "Werken-bij",
-        "description": "text",
-        "img":{
+        "bulletPoints": {
+            "point1": "Maandelijkse bedrijfsuitjes",
+            "point2": "Leuke spontane collega's",
+            "point3": "Startsalaris van 26 euro per uur"
+        },
+        "img": {
             "src": "../../../assets/imgs/heroImage.jpg",
             "alt": ""
         }
     },
-    "smallDetails":{
-        "detail1": "test1",
-        "detail2": "test2",
-        "detail3": "test3"
-    },
-    "main":{
-        "articles":[
-            {
-                "img-left": true,
-                "title": "Titel1",
-                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32."
+    "main": {
+        "articlesInfo": {
+            "title": "Artikelen",
+            "articles": [
+                {
+                    "img-left": true,
+                    "title": "Zorg in de laatste levensfase",
+                    "description": "Onze palliatief verpleegkundigen beschikken over de kennis en ervaring, die nodig zijn om u, uw naasten te ondersteunen in de laatste levensfase. In afstemming met de huisarts en andere betrokken zorgverleners adviseren zij u en uw naasten over alle aspecten van de palliatief terminale zorg. Of het nu gaat om emotionele ondersteuning of om adviezen en/of begeleiding: samen met u wordt de zorg afgestemd op uw persoonlijke situatie en specifieke behoefte.",
+                    "image": {
+                        "src": "https://eva-eo.cdn.eo.nl/w_2400/326r0k09otcs-shutterstock-1910306026.jpg",
+                        "alt": "Afbeelding van een zorgmedewerker die een oude vrouw verzorgd"
+                    }
+                },
+                {
+                    "img-left": false,
+                    "title": "Locatie",
+                    "description": "Heeft u behoefte aan zorg op één van onze locaties, dan kan dat. Wilt u of uw partner of dierbare liever de laatste levensfase thuis doorbrengen dan zijn onze palliatief verpleegkundigen er voor u. Of, liever dicht bij huis, dan is het verblijven bij een hospice mogelijk. Wij doen er alles aan om deze periode draaglijker te maken.",
+                    "image": {
+                        "src": "https://magentazorg.nl/media/responsive/fill/8094/80/1080/657/richard-rood-hr2-magentazorg-dag-2-09-09-2020-1085-9.jpg",
+                        "alt": "Afbeelding van een zorgmedewerken in gesprek met een vrouw op locatie"
+                    }
+                }
+            ]
+        },
+        "vacaturesInfo": {
+            "title": "Vacatures",
+            "vacatures": [
+                {
+                    "title": "Verpleegkundig specialist",
+                    "description": "De polikliniek Volwassenen biedt specialistische behandeling aan mensen vanaf 21 jaar bij wie sprake is van ernstige psychiatrische problemen.  Wij bieden via diverse teams verschillende zorgprogramma’s voor angst & stemmingsklachten, bipolaire stoornissen, persoonlijkheidsproblematiek, complex trauma, Neurocognitief Somatische klachten, ADHD en autisme.",
+                    "btn": "Bezoek nu"
+                },
+                {
+                    "title": "Senior jongerenbegeleider",
+                    "description": "Je behandelt, begeleidt, stimuleert, activeert, ondersteunt en observeert jongeren in de leeftijd van 12-18 jaar in een residentiële groep. Het opstellen en uitvoeren van behandelplannen is voor jou geen probleem en je voelt je als een vis in het water op een groep. Samen met je collegas zorg je voor een optimaal behandelklimaat waarin je vorm geeft aan behandeldoelen en concrete pedagogische activiteiten.",
+                    "btn": "Bezoek nu"
+                }
+            ]
+        }, 
+        "applicationProcess": {
+            "title": "Solicitatieprocess",
+            "description": "Hier kun je de sollicitatie procedure zien, hover over één van de icons voor meer informatie",
+            "descriptionMobile": "Hier kun je de sollicitatie procedure zien, tap over één van de icons voor meer informatie",
+            "processOrder": [
+                {
+                    "iconName": "groups",
+                    "text": "Soliciteer: Je soliciteert op de functie en wij kijken of je een geschikte kandidaat bent"
+                },
+                {
+                    "iconName": "check_box",
+                    "text": "Selectie: We kiezen de meest geschikte personen voor een gesprek"
+                },
+                {
+                    "iconName": "question_answer",
+                    "text": "Solicitatiegesprek: We gaan in gesprek over je vaardigheden en over ons/de functie"
+                },
+                {
+                    "iconName": "description",
+                    "text": "Arbeidsvoorwaardengesprek: Als je bent uitgekozen hebben we een tweede gesprek over de arbeidsvoorwaarden"
+                },
+                {
+                    "iconName": "handshake",
+                    "text": "Aangenomen! Als alles goed gaat verwelkomen we je graag als nieuwe collega"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact",
+            "visitationaddress": {
+                "title": "Bezoek adres",
+                "street": "Robijnstraat 48",
+                "tel": "(072) 54 00 676",
+                "postalcode": "1812 RB Alkmaar"
             },
-            {
-                "img-left": false,
-                "title": "Titel2",
-                "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32."
+            "postaladdress": {
+                "title": "Post adres",
+                "street": "Robijnstraat 48",
+                "tel": "(072) 54 00 676",
+                "postalcode": "1812 RB Alkmaar"
+            },
+            "social-icons": {
+                "title": "Volg ons",
+                "twitter": "fa-brands fa-twitter",
+                "facebook": "fa-brands fa-facebook",
+                "instagram": "fa-brands fa-instagram",
+                "linkedin": "fa-brands fa-linkedin"
             }
-        ]
-
+        }
     }
 }

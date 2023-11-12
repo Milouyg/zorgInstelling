@@ -14,8 +14,8 @@
     }
 
     .context-container{
-        width: 50rem;
-        height: 50rem;
+        width: 34rem;
+        height: 20rem;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -26,6 +26,13 @@
         position: absolute;
         left: 5%;
         z-index: 1;
+
+        .menu{
+
+            .list-item{
+                color: variables.$h1Color;
+            }
+        }
 
         .title{
             color: variables.$h1Color;
@@ -51,8 +58,7 @@
     .landing-page{
 
         .context-container{
-            width: 40rem;
-            height: 40rem;
+            
         }
     }
 }
