@@ -12,7 +12,7 @@
     z-index: 999;
 
     .logo-container{
-        width: 20%;
+        width: 10rem;
         height: 5rem;
 
         .logo{
@@ -42,13 +42,14 @@
 
     .menu-bar{
         display: none;
+        width: 10rem;
     }
 }
 
 @media screen AND (max-width: 43.75rem){ // 700px
     .header-container{
         align-items: flex-start;
-        background: blue;
+        background: variables.$blueColor;
 
         &.add-background{
             background: none;
@@ -57,7 +58,6 @@
         .menu{
             flex-direction: column;
             width: 75%;
-            padding-right: 8rem;
             
             &.open{
                 display: none;
