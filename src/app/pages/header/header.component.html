@@ -4,19 +4,22 @@
     </figure>
     <ul #menu class='menu open'>
         <li class='menu-item'>
-            {{menuItems['home']}}
+            <a href="#home" class="link"> {{menuItems['home']}} </a>
         </li>
         <li class='menu-item'>
-            {{menuItems['aboutMe']}}
+            <a href="#about-us" class="link"> {{menuItems['aboutUs']}} </a>
         </li>
         <li class='menu-item'>
-            {{menuItems['treatments']}}
+            <a href="#articles" class="link"> {{menuItems['articles']}} </a>
         </li>
         <li class='menu-item'>
-            {{menuItems['vacature']}}
+            <a href="#vacatures" class="link"> {{menuItems['vacatures']}} </a>
         </li>
         <li class='menu-item'>
-            {{menuItems['contact']}}
+            <a href="#applicationProcess" class="link"> {{menuItems['applicationProcess']}} </a>
+        </li>
+        <li class='menu-item'>
+            <a href="#contact" class="link contact"> {{menuItems['contact']}} </a>
         </li>
     </ul>
     <button class='menu-bar' (click)='openBtn(menu, header)'>

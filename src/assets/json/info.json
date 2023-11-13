@@ -1,9 +1,10 @@
 {
     "menu": {
         "home": "Home",
-        "aboutMe": "Over mij",
-        "treatments": "Behandelingen",
-        "vacature": "Vacatures",
+        "articles": "Artikelen",
+        "aboutUs": "Over ons",
+        "vacatures": "Vacatures",
+        "applicationProcess": "Solliciteren",
         "contact": "Contact",
         "img":{
             "src": "../../../assets/imgs/logo.jpg.png",

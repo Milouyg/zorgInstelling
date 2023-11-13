@@ -1,12 +1,12 @@
 <div class="main">
-    <section class="articles">
+    <section id="articles" class="articles">
         <h1 class="title">{{main['articlesInfo']['title']}}</h1>
         <ng-container *ngFor="let article of main['articlesInfo']['articles']">
             <app-article [imgLeft]="article['img-left']" [title]="article['title']"
                 [description]="article['description']" [image]="article['image']"></app-article>
         </ng-container>
     </section>
-    <section class="vacatures">
+    <section id="vacatures" class="vacatures">
         <h1 class="title">{{main['vacaturesInfo']['title']}}</h1>
         <div class="vacature-container">
             <ng-container *ngFor="let vacature of main['vacaturesInfo']['vacatures']">
@@ -14,7 +14,7 @@
             </ng-container>
         </div>
     </section>
-    <section class="application-process">
+    <section id="applicationProcess" class="application-process">
         <div class="application-process-container">
             <h1 class="title">{{main['applicationProcess']['title']}}</h1>
             <p class="description">{{explanation}}</p>

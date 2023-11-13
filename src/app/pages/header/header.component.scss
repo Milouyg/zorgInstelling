@@ -33,6 +33,15 @@
             list-style: none;
             color: variables.$h1Color;
             font-weight: 800;
+
+            .link{
+                color: whitesmoke;
+                text-decoration: none;
+
+                &.contact{
+                    border-bottom: .2rem solid whitesmoke;
+                }
+            }
         }
 
         &:hover{
@@ -46,7 +55,7 @@
     }
 }
 
-@media screen AND (max-width: 43.75rem){ // 700px
+@media screen AND (max-width: 46.875rem){ // 750px
     .header-container{
         align-items: flex-start;
         background: variables.$blueColor;
