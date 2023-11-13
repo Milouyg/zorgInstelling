@@ -7,7 +7,7 @@
     gap: 2rem;
     width: 100%;
     padding: 2rem;
-    background:  variables.$blueColor;
+    background: variables.$blueColor;
 
     .contact-wrapper{
         width: 70%;
@@ -34,12 +34,12 @@
             flex-wrap: wrap;
             width: 100%;
             gap: 2rem;
-    
+
             .contact-us-visit {
                 display: flex;
                 flex-direction: column;
             }
-    
+
             .contact-us-postal {
                 display: flex;
                 flex-direction: column;
@@ -49,15 +49,22 @@
                 list-style: none;
 
             }
-    
+
             .follow-us {
                 display: flex;
                 flex-direction: column;
-    
+
                 .icon-container {
                     display: flex;
                     flex-direction: row;
                     gap: .5rem;
+
+                    .social-media{
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }
@@ -90,6 +97,25 @@
         .contact-wrapper{
             .contact-info-container{
                 justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 37.5rem) { // 600px
+
+    .contact{
+        .contact-wrapper{
+            .contact-info-container{
+                .contact-us-visit{
+                    font-size: 80%;
+                }
+                .contact-us-postal{
+                    font-size: 80%;
+                }
+                .follow-us{
+                    font-size: 80%;
+                }
             }
         }
     }

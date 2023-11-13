@@ -7,5 +7,5 @@ import landingPage from "../../../assets/json/info.json";
   styleUrls: ['./landing-page.component.scss']
 })
 export class LandingPageComponent {
-  landingPage = landingPage["landing-page"];
+  landingPage = landingPage["landingPage"];
 }

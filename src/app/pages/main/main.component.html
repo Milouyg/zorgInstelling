@@ -1,8 +1,18 @@
 <div class="main">
+    <section id="aboutMe" class="aboutMe">
+        <h1 class="title"> {{ main['aboutMe']['title'] }} </h1>
+        <div class="content-container">
+            <p class="description"> {{main['aboutMe']['description']}} </p>
+            <figure class="img-container">
+                <img class="img" [src]="main['aboutMe']['img']['scr']" [alt]="main['aboutMe']['img']['alt']">
+            </figure>
+        </div>
+    </section>
+
     <section id="articles" class="articles">
         <h1 class="title">{{main['articlesInfo']['title']}}</h1>
         <ng-container *ngFor="let article of main['articlesInfo']['articles']">
-            <app-article [imgLeft]="article['img-left']" [title]="article['title']"
+            <app-article [imgLeft]="article['imgLeft']" [title]="article['title']"
                 [description]="article['description']" [image]="article['image']"></app-article>
         </ng-container>
     </section>
@@ -23,13 +33,14 @@
                 <ng-container *ngFor="let process of main['applicationProcess']['processOrder'] let last = last;">
                     <li class="list-item">
                         <span class="material-symbols-outlined icon" (mouseover)="showExplanation(process['text'])" (mouseleave)="showDefaultText()">
-                            {{process['iconName']}} 
+                            {{process['iconName']}}
                         </span>
                     </li>
                     <i *ngIf="!last" class="fa-solid fa-arrow-right arrow-right"></i>
                     <i *ngIf="!last" class="fa-solid fa-arrow-down arrow-bottom"></i>
                 </ng-container>
             </ul>
+            <button class="cta"> {{main['applicationProcess']['btn']}} </button>
         </div>
     </section>
 </div>

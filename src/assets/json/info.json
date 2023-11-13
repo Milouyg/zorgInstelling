@@ -1,7 +1,7 @@
 {
     "menu": {
         "home": "Home",
-        "articles": "Artikelen",
+        "articles": "Zorg aanbod",
         "aboutUs": "Over ons",
         "vacatures": "Vacatures",
         "applicationProcess": "Solliciteren",
@@ -11,7 +11,7 @@
             "alt": "Logo dat een groen blaadje en een blauwe kruis bevat"
         }
     },
-    "landing-page": {
+    "landingPage": {
         "title": "Werken-bij",
         "bulletPoints": {
             "point1": "Maandelijkse bedrijfsuitjes",
@@ -24,11 +24,19 @@
         }
     },
     "main": {
+        "aboutMe":{
+            "title": "Over ons",
+            "description": "Welkom bij ZorgConnect, waar we hoogwaardige zorg bieden met aandacht voor het unieke welzijn van elk individu. Ons toegewijde team van zorgverleners staat klaar om ondersteuning te bieden op diverse gebieden, van medische zorg tot geestelijke gezondheid en revalidatie. We streven naar uitmuntendheid, innovatie en samenwerking met lokale gemeenschappen om een positieve impact te creëren op het leven van degenen die we bedienen. Ontdek zorg met aandacht, bij ZorgConnect.",
+            "img":{
+                "scr": "../../../assets/imgs/afbeelding1.jpg",
+                "alt": "5 mensen die gezellig aan een tafel kletsen"
+            }
+        },
         "articlesInfo": {
-            "title": "Artikelen",
+            "title": "Zorg aanbod",
             "articles": [
                 {
-                    "img-left": true,
+                    "imgLeft": true,
                     "title": "Zorg in de laatste levensfase",
                     "description": "Onze palliatief verpleegkundigen beschikken over de kennis en ervaring, die nodig zijn om u, uw naasten te ondersteunen in de laatste levensfase. In afstemming met de huisarts en andere betrokken zorgverleners adviseren zij u en uw naasten over alle aspecten van de palliatief terminale zorg. Of het nu gaat om emotionele ondersteuning of om adviezen en/of begeleiding: samen met u wordt de zorg afgestemd op uw persoonlijke situatie en specifieke behoefte.",
                     "image": {
@@ -37,7 +45,7 @@
                     }
                 },
                 {
-                    "img-left": false,
+                    "imgLeft": false,
                     "title": "Locatie",
                     "description": "Heeft u behoefte aan zorg op één van onze locaties, dan kan dat. Wilt u of uw partner of dierbare liever de laatste levensfase thuis doorbrengen dan zijn onze palliatief verpleegkundigen er voor u. Of, liever dicht bij huis, dan is het verblijven bij een hospice mogelijk. Wij doen er alles aan om deze periode draaglijker te maken.",
                     "image": {
@@ -61,7 +69,7 @@
                     "btn": "Bezoek nu"
                 }
             ]
-        }, 
+        },
         "applicationProcess": {
             "title": "Solicitatieprocess",
             "description": "Hier kun je de sollicitatie procedure zien, hover over één van de icons voor meer informatie",
@@ -87,7 +95,8 @@
                     "iconName": "handshake",
                     "text": "Aangenomen! Als alles goed gaat verwelkomen we je graag als nieuwe collega"
                 }
-            ]
+            ],
+            "btn": "solliciteer nu"
         }
     },
     "contact": {
@@ -104,12 +113,8 @@
             "tel": "(072) 54 00 676",
             "postalcode": "1812 RB Alkmaar"
         },
-        "social-icons": {
-            "title": "Volg ons",
-            "twitter": "fa-brands fa-twitter",
-            "facebook": "fa-brands fa-facebook",
-            "instagram": "fa-brands fa-instagram",
-            "linkedin": "fa-brands fa-linkedin"
+        "socialIcons": {
+            "title": "Volg ons"
         }
     }
 }

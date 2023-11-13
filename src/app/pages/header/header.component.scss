@@ -12,7 +12,7 @@
     z-index: 999;
 
     .logo-container{
-        width: 10rem;
+        width: 7rem;
         height: 5rem;
 
         .logo{
@@ -51,7 +51,7 @@
 
     .menu-bar{
         display: none;
-        width: 10rem;
+        width: 7rem;
     }
 }
 
@@ -67,7 +67,7 @@
         .menu{
             flex-direction: column;
             width: 75%;
-            
+
             &.open{
                 display: none;
             }

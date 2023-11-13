@@ -54,7 +54,7 @@
 @media screen and (max-width: 50rem) { // 800px
 
     .vacature{
-        
+
         .content-container{
 
             .sub-title{
@@ -66,5 +66,21 @@
             }
         }
     }
+}
 
+@media screen and (max-width: 37.5rem) { // 600px
+
+    .vacature{
+
+        .content-container{
+
+            .sub-title{
+
+            }
+
+            .description{
+                font-size: 80%;
+            }
+        }
+    }
 }
