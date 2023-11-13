@@ -4,7 +4,7 @@
             <img class="img" [src]="image['src']" [alt]="image['alt']">
         </figure>
         <div class="content-container">
-            <h1 class="title"> {{title}} </h1>
+            <h2 class="sub-title"> {{title}} </h2>
             <p class="description"> {{description}} </p>
         </div>
     </article>
@@ -12,7 +12,7 @@
 <div class="article-container" >
     <article class="article" *ngIf="!imgLeft">
         <div class="content-container">
-            <h1 class="title"> {{title}} </h1>
+            <h2 class="sub-title"> {{title}} </h2>
             <p class="description"> {{description}} </p>
         </div>
         <figure class="img-container">

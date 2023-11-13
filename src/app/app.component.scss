@@ -1,0 +1,23 @@
+@use "../variables.scss";
+
+.float-btn {
+    width: 6rem;
+    height: 6rem;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background: variables.$greenColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .up-icon {
+        color:white;
+    }
+}

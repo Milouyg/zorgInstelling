@@ -1,0 +1,30 @@
+<footer class="contact">
+    <div class="contact-wrapper">
+        <h1 class="title">{{ contact['title'] }}</h1>
+        <div class="contact-info-container">
+            <ul class="contact-us-visit">
+                <li class="list-item">
+                    <h2 class="sub-title">{{ contact['visitationaddress']['title'] }}</h2>
+                </li>
+                <li class="list-item">{{ contact['visitationaddress']['street'] }}</li>
+                <li class="list-item">{{ contact['visitationaddress']['postalcode'] }}</li>
+                <li class="list-item">{{ contact['visitationaddress']['tel'] }}</li>
+            </ul>
+            <div class="contact-us-postal">
+                <h2 class="sub-title">{{ contact['postaladdress']['title'] }}</h2>
+                <li class="list-item">{{ contact['postaladdress']['street'] }}</li>
+                <li class="list-item">{{ contact['postaladdress']['postalcode'] }}</li>
+                <li class="list-item">{{ contact['postaladdress']['tel'] }}</li>
+            </div>
+            <div class="follow-us">
+                <h2 class="sub-title">{{ contact['social-icons']['title'] }}</h2>
+                <div class="icon-container">
+                    <i [class]="contact['social-icons']['twitter']"></i>
+                    <i [class]="contact['social-icons']['facebook']"></i>
+                    <i [class]="contact['social-icons']['instagram']"></i>
+                    <i [class]="contact['social-icons']['linkedin']"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

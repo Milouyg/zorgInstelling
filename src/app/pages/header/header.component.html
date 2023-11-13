@@ -1,6 +1,6 @@
-<header class="header-container">
+<header #header class="header-container add-background">
     <figure class="logo-container">
-        <img class="logo" src="https://placehold.co/100x50" alt="afbeelding van een logo zorginstelling">
+        <img class="logo" [src]="menuItems['img']['src']" [alt]="menuItems['img']['alt']">
     </figure>
     <ul #menu class='menu open'>
         <li class='menu-item'>
@@ -19,8 +19,8 @@
             {{menuItems['contact']}}
         </li>
     </ul>
-    <button class='menu-bar' (click)='openBtn(menu)'>
-        <i class='fa-solid fa-bars icon-bar'></i>
+    <button class='menu-bar' (click)='openBtn(menu, header)'>
+        <i class='fa-solid fa-bars icon-bar icon'></i>
     </button>
 
 </header>

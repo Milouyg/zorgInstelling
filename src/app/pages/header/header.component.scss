@@ -32,6 +32,7 @@
         .menu-item{
             list-style: none;
             color: variables.$h1Color;
+            font-weight: 800;
         }
 
         &:hover{
@@ -47,9 +48,16 @@
 @media screen AND (max-width: 43.75rem){ // 700px
     .header-container{
         align-items: flex-start;
+        background: blue;
+
+        &.add-background{
+            background: none;
+        }
+
         .menu{
             flex-direction: column;
             width: 75%;
+            padding-right: 8rem;
             
             &.open{
                 display: none;
@@ -61,6 +69,10 @@
             border: none;
             display: block;
             font-size: 3rem;
+        }
+
+        .icon{
+            color: white;
         }
     }
 }

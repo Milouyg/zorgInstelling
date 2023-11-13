@@ -3,13 +3,27 @@
     <figure class='context-container'>
         <h1 class='title'> {{landingPage['title']}} </h1>
         <ul class="menu">
-            <li class="list-item">{{landingPage['bulletPoints']['point1']}}</li>
-            <li class="list-item">{{landingPage['bulletPoints']['point2']}}</li>
-            <li class="list-item">{{landingPage['bulletPoints']['point3']}}</li>
+            <li class="list-item">
+                <i class="fa-solid fa-chevron-right arrow-right"></i>
+                <p class="bullet-point">
+                    {{landingPage['bulletPoints']['point1']}}
+                </p>
+            </li>
+            <li class="list-item">
+                <i class="fa-solid fa-chevron-right arrow-right"></i>
+                <p class="bullet-point">
+                    {{landingPage['bulletPoints']['point2']}}
+                </p>
+            </li>
+            <li class="list-item">
+                <i class="fa-solid fa-chevron-right arrow-right"></i>
+                <p class="bullet-point">
+                    {{landingPage['bulletPoints']['point3']}}
+                </p>
+            </li>
         </ul>
     </figure>
 </section>
-
 
 <!-- <app-smallDetails [text]='"dit is een test"' [left]='5' [bottom]='8'></app-smallDetails>
 <app-smallDetails [text]='"dit is een test"' [left]='45' [bottom]='8'></app-smallDetails>

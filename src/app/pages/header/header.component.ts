@@ -9,8 +9,9 @@ import menu from "../../../assets/json/info.json";
 export class HeaderComponent{
   menuItems = menu["menu"];
 
-    openBtn(menuElement: HTMLElement){
-        menuElement.classList.toggle('open');
+    openBtn(menuElement: HTMLElement, headerElement: HTMLElement){
+      menuElement.classList.toggle("open");
+      headerElement.classList.toggle("add-background");
     }
 
 }

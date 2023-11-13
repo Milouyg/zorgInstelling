@@ -5,16 +5,17 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    background: rgba( 0, 0, 0, .3);
 
     .hero-img{
         width: 100%;
-        height: 80rem;
+        height: 60rem;
         object-fit: cover;
         z-index: -1;
     }
 
     .context-container{
-        width: 34rem;
+        width: 40rem;
         height: 20rem;
         display: flex;
         align-items: center;
@@ -30,7 +31,13 @@
         .menu{
 
             .list-item{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                font-size: 2.5rem;
                 color: variables.$h1Color;
+                gap: 1rem;
+                margin-bottom: 1rem;
             }
         }
 
@@ -73,13 +80,33 @@
     }
 }
 
-@media screen AND (max-width: 31.25rem) { // 1000px
+@media screen AND (max-width: 50rem) { // 800px
 
     .landing-page{
 
         .context-container{
-            width: 80%;
-            height: 66%;
+
+            .title{
+                font-size: variables.$mobileH1;
+            }
+
+            .menu{
+
+                .list-item{
+                    font-size: variables.$mobileText;
+                }
+            }
         }
     }
 }
+
+@media screen AND (max-width: 31.25rem) { // 500px
+
+    .landing-page{
+
+        .context-container{
+            width: 33rem;
+        }
+    }
+}
+

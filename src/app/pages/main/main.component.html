@@ -15,43 +15,21 @@
         </div>
     </section>
     <section class="application-process">
-        <h1 class="title">{{main['applicationProcess']['title']}}</h1>
-        <p class="description">{{explanation}}</p>
-        <p class="description-mobile">{{explanationMobile}}</p>
-        <ul class="menu-items">
-            <ng-container *ngFor="let process of main['applicationProcess']['processOrder']">
-                <li class="list-item">
-                    <span class="material-symbols-outlined icon" (mouseover)="showExplanation(process['text'])" (mouseleave)="showDefaultText()">
-                        {{process['iconName']}} 
-                    </span>
-                </li>
-            </ng-container>
-        </ul>
-    </section>
-    <footer class="contact">
-        <h1>{{ main['contact']['title'] }}</h1>
-        <div class="contact-info-container">
-            <div class="contact-us-visit">
-                <h2>{{ main['contact']['visitationaddress']['title'] }}</h2>
-                <span>{{ main['contact']['visitationaddress']['street'] }}</span>
-                <span>{{ main['contact']['visitationaddress']['postalcode'] }}</span>
-                <span>{{ main['contact']['visitationaddress']['tel'] }}</span>
-            </div>
-            <div class="contact-us-postal">
-                <h2>{{ main['contact']['postaladdress']['title'] }}</h2>
-                <span>{{ main['contact']['postaladdress']['street'] }}</span>
-                <span>{{ main['contact']['postaladdress']['postalcode'] }}</span>
-                <span>{{ main['contact']['postaladdress']['tel'] }}</span>
-            </div>
-            <div class="follow-us">
-                <h2>{{ main['contact']['social-icons']['title'] }}</h2>
-                <div class="icon-container">
-                    <i [class]="main['contact']['social-icons']['twitter']"></i>
-                    <i [class]="main['contact']['social-icons']['facebook']"></i>
-                    <i [class]="main['contact']['social-icons']['instagram']"></i>
-                    <i [class]="main['contact']['social-icons']['linkedin']"></i>
-                </div>
-            </div>
+        <div class="application-process-container">
+            <h1 class="title">{{main['applicationProcess']['title']}}</h1>
+            <p class="description">{{explanation}}</p>
+            <p class="description-mobile">{{explanationMobile}}</p>
+            <ul class="menu-items">
+                <ng-container *ngFor="let process of main['applicationProcess']['processOrder'] let last = last;">
+                    <li class="list-item">
+                        <span class="material-symbols-outlined icon" (mouseover)="showExplanation(process['text'])" (mouseleave)="showDefaultText()">
+                            {{process['iconName']}} 
+                        </span>
+                    </li>
+                    <i *ngIf="!last" class="fa-solid fa-arrow-right arrow-right"></i>
+                    <i *ngIf="!last" class="fa-solid fa-arrow-down arrow-bottom"></i>
+                </ng-container>
+            </ul>
         </div>
-    </footer>
+    </section>
 </div>

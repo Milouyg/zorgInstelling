@@ -4,7 +4,11 @@
         "aboutMe": "Over mij",
         "treatments": "Behandelingen",
         "vacature": "Vacatures",
-        "contact": "Contact"
+        "contact": "Contact",
+        "img":{
+            "src": "../../../assets/imgs/logo.jpg.png",
+            "alt": "Logo dat een groen blaadje en een blauwe kruis bevat"
+        }
     },
     "landing-page": {
         "title": "Werken-bij",
@@ -15,7 +19,7 @@
         },
         "img": {
             "src": "../../../assets/imgs/heroImage.jpg",
-            "alt": ""
+            "alt": "Afbeelding van een vrouw die glimlacht naar een oude man"
         }
     },
     "main": {
@@ -83,28 +87,28 @@
                     "text": "Aangenomen! Als alles goed gaat verwelkomen we je graag als nieuwe collega"
                 }
             ]
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "visitationaddress": {
+            "title": "Bezoek adres",
+            "street": "Robijnstraat 48",
+            "tel": "(072) 54 00 676",
+            "postalcode": "1812 RB Alkmaar"
         },
-        "contact": {
-            "title": "Contact",
-            "visitationaddress": {
-                "title": "Bezoek adres",
-                "street": "Robijnstraat 48",
-                "tel": "(072) 54 00 676",
-                "postalcode": "1812 RB Alkmaar"
-            },
-            "postaladdress": {
-                "title": "Post adres",
-                "street": "Robijnstraat 48",
-                "tel": "(072) 54 00 676",
-                "postalcode": "1812 RB Alkmaar"
-            },
-            "social-icons": {
-                "title": "Volg ons",
-                "twitter": "fa-brands fa-twitter",
-                "facebook": "fa-brands fa-facebook",
-                "instagram": "fa-brands fa-instagram",
-                "linkedin": "fa-brands fa-linkedin"
-            }
+        "postaladdress": {
+            "title": "Post adres",
+            "street": "Robijnstraat 48",
+            "tel": "(072) 54 00 676",
+            "postalcode": "1812 RB Alkmaar"
+        },
+        "social-icons": {
+            "title": "Volg ons",
+            "twitter": "fa-brands fa-twitter",
+            "facebook": "fa-brands fa-facebook",
+            "instagram": "fa-brands fa-instagram",
+            "linkedin": "fa-brands fa-linkedin"
         }
     }
 }

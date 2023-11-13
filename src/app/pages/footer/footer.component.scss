@@ -1,0 +1,96 @@
+@use "../../../variables.scss";
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem;
+    background:  variables.$blueColor;
+
+    .contact-wrapper{
+        width: 70%;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .sub-title{
+            font-style: italic;
+            font-size: 2.2rem;
+            padding-bottom: .5rem;
+            color: variables.$greenColor;
+        }
+
+        .contact-info-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 2rem;
+    
+            .contact-us-visit {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .contact-us-postal {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .list-item{
+                list-style: none;
+
+            }
+    
+            .follow-us {
+                display: flex;
+                flex-direction: column;
+    
+                .icon-container {
+                    display: flex;
+                    flex-direction: row;
+                    gap: .5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 50rem) { // 800px
+
+    .contact{
+        .contact-wrapper{
+            .title{
+                font-size: variables.$mobileH1;
+            }
+
+            .description{
+                font-size: variables.$mobileText;
+            }
+
+            .contact-info-container{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 43.75rem) { // 700px
+
+    .contact{
+        .contact-wrapper{
+            .contact-info-container{
+                justify-content: center;
+            }
+        }
+    }
+}
