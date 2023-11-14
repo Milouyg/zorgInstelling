@@ -1,9 +1,7 @@
 @use "../../../variables.scss";
 
 .landing-page{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include variables.flexCenter;
     width: 100%;
     background: rgba( 0, 0, 0, .5);
 
@@ -36,8 +34,8 @@
                 list-style: none;
                 font-size: 2.5rem;
                 color: variables.$h1Color;
-                gap: 1rem;
-                margin-bottom: 1rem;
+                gap: 1.5rem;
+                margin-bottom: 1.2rem;
             }
         }
 
@@ -60,16 +58,6 @@
     }
 }
 
-@media screen AND (max-width: 78.125rem) { // 1250px
-
-    .landing-page{
-
-        .context-container{
-
-        }
-    }
-}
-
 @media screen AND (max-width: 62.5rem) { // 1000px
 
     .landing-page{
@@ -85,6 +73,8 @@
     .landing-page{
 
         .context-container{
+            width: 33rem;
+            height: 17rem;
 
             .title{
                 font-size: variables.$mobileH1;
@@ -100,13 +90,4 @@
     }
 }
 
-@media screen AND (max-width: 31.25rem) { // 500px
-
-    .landing-page{
-
-        .context-container{
-            width: 33rem;
-        }
-    }
-}
 

@@ -16,7 +16,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .sub-title{
@@ -26,7 +26,7 @@
     }
 
     .btn{
-        width: 10rem;
+        width: 11rem;
         padding: 1rem;
         background: none;
         border: .3rem solid variables.$greenColor;
@@ -36,7 +36,7 @@
         &:hover{
             cursor: pointer;
             background: variables.$greenColor;
-            color: whitesmoke;
+            color: variables.$whitesmoke;
             transition: .3s all ease-out;
         }
     }

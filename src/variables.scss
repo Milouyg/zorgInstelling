@@ -7,3 +7,10 @@ $mobileH2: 2.2rem;
 
 $blueColor: #AFDBF5;
 $greenColor: #2E8B57;
+$whitesmoke: whitesmoke;
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

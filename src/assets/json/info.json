@@ -7,7 +7,7 @@
         "applicationProcess": "Solliciteren",
         "contact": "Contact",
         "img":{
-            "src": "../../../assets/imgs/logo.jpg.png",
+            "src": "../../../assets/imgs/logo.webp",
             "alt": "Logo dat een groen blaadje en een blauwe kruis bevat"
         }
     },
@@ -19,7 +19,7 @@
             "point3": "Startsalaris van 26 euro per uur"
         },
         "img": {
-            "src": "../../../assets/imgs/heroImage.jpg",
+            "src": "../../../assets/imgs/heroImage.webp",
             "alt": "Afbeelding van een vrouw die glimlacht naar een oude man"
         }
     },
@@ -28,7 +28,7 @@
             "title": "Over ons",
             "description": "Welkom bij ZorgConnect, waar we hoogwaardige zorg bieden met aandacht voor het unieke welzijn van elk individu. Ons toegewijde team van zorgverleners staat klaar om ondersteuning te bieden op diverse gebieden, van medische zorg tot geestelijke gezondheid en revalidatie. We streven naar uitmuntendheid, innovatie en samenwerking met lokale gemeenschappen om een positieve impact te creëren op het leven van degenen die we bedienen. Ontdek zorg met aandacht, bij ZorgConnect.",
             "img":{
-                "scr": "../../../assets/imgs/afbeelding1.jpg",
+                "scr": "../../../assets/imgs/afbeelding1.webp",
                 "alt": "5 mensen die gezellig aan een tafel kletsen"
             }
         },
@@ -60,13 +60,13 @@
             "vacatures": [
                 {
                     "title": "Verpleegkundig specialist",
-                    "description": "De polikliniek Volwassenen biedt specialistische behandeling aan mensen vanaf 21 jaar bij wie sprake is van ernstige psychiatrische problemen.  Wij bieden via diverse teams verschillende zorgprogramma’s voor angst & stemmingsklachten, bipolaire stoornissen, persoonlijkheidsproblematiek, complex trauma, Neurocognitief Somatische klachten, ADHD en autisme.",
-                    "btn": "Bezoek nu"
+                    "description": "Wij zoeken een enthousiaste en toegewijde verpleegkundig specialist met ervaring in de behandeling van ernstige psychiatrische problemen bij volwassenen. Als lid van ons team ben je verantwoordelijk voor de specialistische behandeling van individuen vanaf 21 jaar. De polikliniek biedt diverse zorgprogramma's, waaronder angst & stemmingsklachten, bipolaire stoornissen, persoonlijkheidsproblematiek, complex trauma, Neurocognitief Somatische klachten, ADHD en autisme.",
+                    "btn": "Solliciteer nu"
                 },
                 {
                     "title": "Senior jongerenbegeleider",
-                    "description": "Je behandelt, begeleidt, stimuleert, activeert, ondersteunt en observeert jongeren in de leeftijd van 12-18 jaar in een residentiële groep. Het opstellen en uitvoeren van behandelplannen is voor jou geen probleem en je voelt je als een vis in het water op een groep. Samen met je collegas zorg je voor een optimaal behandelklimaat waarin je vorm geeft aan behandeldoelen en concrete pedagogische activiteiten.",
-                    "btn": "Bezoek nu"
+                    "description": "Ben jij een betrokken en ervaren pedagogisch medewerker die gedreven is om jongeren in de leeftijd van 12-18 jaar te behandelen, begeleiden, stimuleren, activeren, ondersteunen en observeren? Dan zijn wij op zoek naar jou! Wil jij een significante bijdrage leveren aan de positieve ontwikkeling van jongeren? Solliciteer dan nu!",
+                    "btn": "Solliciteer nu"
                 }
             ]
         },
@@ -96,7 +96,7 @@
                     "text": "Aangenomen! Als alles goed gaat verwelkomen we je graag als nieuwe collega"
                 }
             ],
-            "btn": "solliciteer nu"
+            "btn": "Bekijk vacatures"
         }
     },
     "contact": {
